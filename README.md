@@ -9,7 +9,7 @@ fn main() {
       .insert((0,0), 3)
       .insert((0,4), 6)
       .insert((3,5), 2)
-      .build(); // you must call the built function at the end of the building process.
+      .build(); // you must call the build function at the end of the building process.
 
    if board.solve() {
       println!("the board has been solved successfully!");
